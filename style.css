@@ -1,13 +1,14 @@
 body {display: flex;
 align-items: center;
 flex-direction: column;
-background-color: rgb(23, 23, 199);
+background-color:lightcyan ;
 }
 
 #board td {
     width: 50px;
     height: 50px;
     border: solid 1px black;
+    background-color: rgb(23, 23, 199);
   }
   
   .piece {
@@ -18,9 +19,10 @@ background-color: rgb(23, 23, 199);
   }
   
   #column-top td {
-    border: dashed 1px lightgray;
+    border: dashed 1px black;
+    background-color: lightcyan;
   }
   
   #column-top td:hover {
-    background-color:black;
+    background-color:rgb(23, 23, 199);
   }
